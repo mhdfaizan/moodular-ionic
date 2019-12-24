@@ -27,7 +27,7 @@ const Home: React.FC<HomeProps> = ({ moodStore }) => {
                 </h2>
 
                 <Picker
-                    title="Pick your mood"
+                    title="What's your mood?"
                     include={["people"]}
                     onSelect={handleEmojiSelect}
                 />
